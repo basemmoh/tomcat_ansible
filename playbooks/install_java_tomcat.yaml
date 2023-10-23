@@ -49,7 +49,7 @@
 
     - name: Copy Tomcat service from local to remote
       copy:
-        src: install_java.yaml
+        src: install_java_tomcat.yaml
         dest: web
         mode: 0755
 
